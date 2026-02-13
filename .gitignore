@@ -112,3 +112,11 @@ dist
 
 #Mac
 .DS_Store
+
+# Terraform
+.terraform/
+*.exe
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
